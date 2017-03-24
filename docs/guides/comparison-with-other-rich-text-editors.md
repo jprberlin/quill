@@ -8,7 +8,7 @@ permalink: /guides/comparison-with-other-rich-text-editors/
 
 CKEditor and TinyMCE are both very widely used, having been around for over a decade. Quill introduces several new ideas that separate it from these traditional editors:
 
-- Treat `contenteditable` as an input, not a complete editor or API. Browsers never fully agreed on or specified the complete scope of `contenteditable`. Left to their own interpretations, each ended with different implementations that featured their own quirks and a proliferation of bugs, earning `contenteditable` deserved notoriety. It is still possible today crash an entire browser, using `contenteditable` APIs.
+- Treat `contenteditable` as an input, not a complete editor or API. Browsers never fully agreed on or specified the complete scope of `contenteditable`. Left to their own interpretations, each ended with different implementations that featured their own quirks and a proliferation of bugs, earning `contenteditable` deserved notoriety. It is still possible today to crash an entire browser, using `contenteditable` APIs.
 
 - Offer a substantive API on top of the DOM. Most of CKEditor and TinyMCE's APIs offer little more than syntactic sugar on top of existing DOM APIs. Quill maintains internal document model and does not rely on the DOM as the source of truth, allow it to offer far more powerful and relevant APIs for text editing.
 
